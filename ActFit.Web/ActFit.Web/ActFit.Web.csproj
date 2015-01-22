@@ -183,8 +183,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\animate.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\facebook-icon.png" />
+    <Content Include="Content\Images\google-icon.png" />
+    <Content Include="Content\Images\instagram-icon.png" />
+    <Content Include="Content\Images\loading.gif" />
+    <Content Include="Content\Images\loading2.gif" />
     <Content Include="Content\Images\slide-1.jpg" />
     <Content Include="Content\Images\slide-2.jpg" />
     <Content Include="Content\Images\slide-3.jpg" />
@@ -208,6 +214,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\wow.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

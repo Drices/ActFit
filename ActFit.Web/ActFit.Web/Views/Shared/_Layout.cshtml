@@ -26,20 +26,31 @@
                     <li><a class="scroll-link" href="#shop">Shop</a></li>
                     <li><a class="scroll-link" href="#about">About</a></li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                @*@Html.Partial("_LoginPartial")*@
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
     </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 footer-copyright">
+                        <p>&copy; @DateTime.Now.Year - ACTF!Tsilver</p>
+                    </div>
+                    <div class="col-sm-6 footer-social">
+                        <a class="social-slide social-facebook" href="https://www.facebook.com/"></a>
+                        <a class="social-slide social-google" href="https://plus.google.com/"></a>
+                        <a class="social-slide social-instagram" href="http://instagram.com/mauricejungmann/"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/wow")
     @RenderSection("scripts", required: false)
 </body>
 </html>
