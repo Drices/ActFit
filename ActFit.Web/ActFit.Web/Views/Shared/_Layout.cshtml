@@ -6,6 +6,7 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -21,12 +22,11 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="scroll-link" href="#top-content">Top</a></li>
-                    <li><a class="scroll-link" href="#products">Products</a></li>
-                    <li><a class="scroll-link" href="#shop">Shop</a></li>
-                    <li><a class="scroll-link" href="#about">About</a></li>
+                    <li><a class="scroll-link" id="top-content" href="#top-content">Top</a></li>
+                    <li><a class="scroll-link" id="products" href="#products">Products</a></li>
+                    <li><a class="scroll-link" id="shop" href="#shop">Shop</a></li>
+                    <li><a class="scroll-link" id="about" href="#about">About</a></li>
                 </ul>
-                @*@Html.Partial("_LoginPartial")*@
             </div>
         </div>
     </div>
